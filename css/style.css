@@ -22,4 +22,5 @@ figcaption {
 .bg-image {
 background-position: right center;
 margin-bottom: 10px;
+background-repeat: no-repeat;
 }

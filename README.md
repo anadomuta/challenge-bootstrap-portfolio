@@ -37,6 +37,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 The following resources were used:
 1.[Bootstrap Navbar](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
+2.[Bootstrap Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
 
 
 ## License
