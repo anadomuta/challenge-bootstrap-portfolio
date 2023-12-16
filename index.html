@@ -14,7 +14,6 @@
 </head>
 
 <body>
-  <!-- <div class="page"> -->
   <header>
 
     <!-- Navigation bar -->
@@ -22,13 +21,13 @@
       <div class="container-fluid">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+            <a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">WORK</a>
+            <a class="nav-link" href="#work">WORK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -39,25 +38,32 @@
 
   <!--Hero Banner-->
   <figure>
-    <div class="p-5 text-center bg-image"   style="background-image: url('./images/la-gomera-image.PNG');
-    height: 800px; background-color: rgba(0, 0, 0, 0.6);">
-    <div>
-        <figcaption class="text-white">My last trip | La Gomera</figcaption>
-        <h1 class="text-white">Ana Domuta</h1>
-        <div class="text-white">Web Developer</div>
-      </div>
-
+    <div class="p-5 text-center bg-image" style="background-image: url('./images/la-gomera-image.PNG'); height: 700px;">
+      <figcaption class="text-white">My last trip | La Gomera</figcaption>
+      <h1 class="text-white"><b>Ana Domuta</b></h1>
+      <h4 class="text-white"><i>Web Developer</i></h4>
+    </div>
   </figure>
   <!-- End Hero Banner-->
 
   <!--Jumbotron-->
-  . <div class="p-5 mb-4 bg-body-tertiary rounded-3 bioimage">
-    <div class="container-fluid py-5 jumboCopy" <h1 class="display-5 fw-bold">About Me</h1>
-      <p class="col-md-12 fs-4">
-        Ana Domuta holds a MSc in Business Administration from the University of Vienna with a focus on Strategic Management, Organization and Personnel, and Electronic Business. Professionally, she worked as an Account Manager for an aircraft manufacturer and electric vehicle charging startup, and is currently learning Web Development.
-      </p>
-      <button class="btn btn-primary btn-lg" type="button">Let's connect</button>
+  . <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid py-5">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="./images/bio-image.JPG" alt="Bio image" class="img-fluid"/>
+        </div>
+      <div class="col-lg-9">
+        <h1 class="display-5 fw-bold" id="about">About Me</h1>
+        <p class="col-md-12 fs-5">
+          Hi! I'm Ana and have an educational background in Business Administration. Professionally, I worked as an Account
+          Manager
+          for an aircraft manufacturer and electric vehicle charging startup, and I'm currently learning Web Development.
+        </p>
+        <button class="btn btn-primary btn-lg" id="contactlinks" type="button">Let's connect</button>
+      </div>
     </div>
+  </div>
   </div>
   <!-- End Jumbotron-->
 
