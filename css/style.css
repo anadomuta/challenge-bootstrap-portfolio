@@ -13,8 +13,13 @@ header{
     letter-spacing: 0.1em;
   } */
 
-  figcaption{
-    text-align: right;
-    font-family: cursive;
-    font-size: 15px;
-  }
+figcaption {
+  text-align: right;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.bg-image {
+background-position: right center;
+margin-bottom: 10px;
+}
