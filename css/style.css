@@ -1,36 +1,51 @@
-/* h1 {
-    text-align: center;
-    padding: 5px;
+body {
+  background-color: #e9e5dc;
 }
 
-header{
-    padding: 50px;
+
+/* Navigation bar */
+#name {
+  background-color: #be9b7b;
 }
 
-  body {
-    background-color: #fff4e6;
-    line-height: 1.6;
-    letter-spacing: 0.1em;
-  } */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: #e9e5dc;
+  !important;
+  z-index: 10;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
 
 
-  .herobanner {
-    height: calc(100vh - 25px);
-    background-image: url('../images/hero-banner.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Jumbotron copy */
-  .jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    text-align: center;
-  }
+.herobanner {
+  height: calc(100vh - 25px);
+  background-image: url('../images/hero-banner.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  text-align: center;
+}
 
 figcaption {
   text-align: right;
@@ -39,9 +54,9 @@ figcaption {
 }
 
 .bg-image {
-background-position: right center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-img-top {
