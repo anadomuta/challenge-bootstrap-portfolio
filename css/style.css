@@ -45,6 +45,7 @@ body {
   color: cyan;
 }
 
+/* Hero banner */
 .herobanner {
   height: calc(100vh - 25px);
   background-image: url('../images/hero-banner.JPG');
@@ -64,23 +65,19 @@ body {
   text-align: center;
 }
 
-figcaption {
-  text-align: right;
-  font-family: cursive;
-  font-size: 15px;
-}
-
 .bg-image {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .card-img-top {
+/* Work section */
+
+.card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
-} */
+}
 
 .border-bottom:after {
   content: "";
@@ -102,20 +99,42 @@ a:hover {
 }
 
 /* Media Queries */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 996px) {
   .navbar-nav {
     display: block;
     text-align: center;
   }
 
   .navbar-nav .nav-item {
-    display: inline-block;
+    display: inline-block !important;
     margin: 10px 0;
   }
+
   .herobanner {
-    height: 400px; /* Adjust the height as needed */
+    height: 400px;
+  }
+
+  .bg-image {
+    height: 50px;
   }
 
   .jumboCopy {
-    width: 80%;
-}}
+    width: 30%;
+    min-width: 200px;
+    max-width: 300px;
+  }
+
+  .jumboCopy p {
+    font-size: 10px !important;
+  }
+
+  .aboutMe img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumboCopy p {
+    font-size: 10px !important;
+  }
+}
