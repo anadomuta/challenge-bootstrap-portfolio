@@ -77,11 +77,11 @@ figcaption {
   background-size: cover;
 }
 
-.card-img-top {
+/* .card-img-top {
   width: 100%;
   height: 15vw;
   object-fit: cover;
-}
+} */
 
 .border-bottom:after {
   content: "";

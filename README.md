@@ -3,63 +3,49 @@ A landing page for own porfolio styled with bootstrap
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project represents a webpage about myself and my work portfolio using Bootstrap version 5.3.x. It was created to showcase my projects completed throughout the edX Web Development bootcamp and future work sample. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+## The webpage includes the following:
+1. A navigation bar with navigation menu at the top and navigation links to the appropriate sections.
+3. A hero section with a jumbotron featuring a picture, my name, and any additional info.
+3. A work section, displaying my work in grid using Bootstrap cards and linking to the deployed projects.
+4. A skills section.
+5. An about/contact section.
+6. A footer section
+7. Additional formatting:
+    - All hyperlinks should have a hover effect.
+    - All buttons should display a box shadow upon hover.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The webpage can be accessed using this URL: [to follow]
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To use the webpage, you can click on the different sections in the navigation bar and get to the desired content section. Additionally, you can tap on the buttons thoughout the page to either get my contact details, or see the projects.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The screenshot below displays the web page outlook for the a large device.
 
 ## Credits
+The project was built following the instructions from the materials in the Skills Bootcamp in Front-End Web Development by edX. 
+
+The pictures used throughout the page are from a personal trip to Tenerife. 
+
+The banner image has been retrieved from [Unsplash](https://unsplash.com/).
 
 The following resources were used:
-1.[Bootstrap Navbar](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
-2.[Bootstrap Grid](https://getbootstrap.com/docs/5.3/layout/grid/)
+1. [Bootstrap Navbar and Grid](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+2. [My Skills Icons](https://www.iconfinder.com/search?q=framework&price=free)
+3. [Blog on how to resize cards](https://www.geeksforgeeks.org/bootstrap-5-cards-sizing-using-utilities/)
+4. [Hex Color Codes](https://www.color-hex.com/)
+5. [CSS elements styling order](https://github.com/necolas/idiomatic-css)
 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+This project is licensed under the terms of the MIT license.
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![License](https://img.shields.io/github/license/anadomuta/challenge-own-portfolio.svg)
+![VS Code](https://img.shields.io/badge/Made%20with-VSCode-1f425f.svg)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
