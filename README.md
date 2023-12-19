@@ -22,7 +22,9 @@ The webpage can be accessed using this URL: [to follow]
 
 To use the webpage, you can click on the different sections in the navigation bar and get to the desired content section. Additionally, you can tap on the buttons thoughout the page to either get my contact details, or see the projects.
 
-The screenshot below displays the web page outlook for the a large device.
+The screenshots below displays the web page outlook for a large device. The page is responsive, and the work projects and skills stack upon each other with smaller screen sizes.
+
+![Large Webpage Screenshot](./images/lg-screenshot.PNG)
 
 ## Credits
 The project was built following the instructions from the materials in the Skills Bootcamp in Front-End Web Development by edX. 
