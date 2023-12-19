@@ -9,6 +9,10 @@ body {
   background-color: #e9e5dc;
 }
 
+/* Shadow styling upon button hovering*/
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 /* Navigation bar */
 #name {
@@ -31,6 +35,14 @@ body {
 
 .nav-item {
   margin: 0px 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: cyan;
 }
 
 .herobanner {
@@ -68,4 +80,21 @@ figcaption {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+
+
+.border-bottom:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid black;
+  margin: 0 15px;
+}
+
+/* Contact Section */
+a{
+  color: black;
+}
+ 
+a:hover{
+  color: cyan;
 }
