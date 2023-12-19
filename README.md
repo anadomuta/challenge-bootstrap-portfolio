@@ -18,7 +18,7 @@ This project represents a webpage about myself and my work portfolio using Boots
 
 ## Usage
 
-The webpage can be accessed using this URL: [to follow]
+The webpage can be accessed using this URL: https://anadomuta.github.io/challenge-bootstrap-portfolio/
 
 To use the webpage, you can click on the different sections in the navigation bar and get to the desired content section. Additionally, you can tap on the buttons thoughout the page to either get my contact details, or see the projects I've been working on.
 
