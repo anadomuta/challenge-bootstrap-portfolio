@@ -18,12 +18,11 @@ body {
 #name {
   background-color: #be9b7b;
   padding: 30px;
+  margin: 0;
 }
 
 .customNav {
-  width: 100%;
   background-color: #e9e5dc !important;
-  /* z-index: 10; */
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
