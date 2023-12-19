@@ -13,25 +13,23 @@ This project represents a webpage about myself and my work portfolio using Boots
 5. An about/contact section.
 6. A footer section
 7. Additional formatting:
-    - All hyperlinks should have a hover effect.
-    - All buttons should display a box shadow upon hover.
+    - All hyperlinks have a hover effect.
+    - All buttons display a box shadow upon hover.
 
 ## Usage
 
 The webpage can be accessed using this URL: [to follow]
 
-To use the webpage, you can click on the different sections in the navigation bar and get to the desired content section. Additionally, you can tap on the buttons thoughout the page to either get my contact details, or see the projects.
+To use the webpage, you can click on the different sections in the navigation bar and get to the desired content section. Additionally, you can tap on the buttons thoughout the page to either get my contact details, or see the projects I've been working on.
 
-The screenshots below displays the web page outlook for a large device. The page is responsive, and the work projects and skills stack upon each other with smaller screen sizes.
+The screenshot below displays the web page outlook for a large device. The page is designed to be responsive, so that the work projects and skills stack upon each other on smaller screen sizes.
 
 ![Large Webpage Screenshot](./images/lg-screenshot.PNG)
 
 ## Credits
 The project was built following the instructions from the materials in the Skills Bootcamp in Front-End Web Development by edX. 
 
-The pictures used throughout the page are from a personal trip to Tenerife. 
-
-The banner image has been retrieved from [Unsplash](https://unsplash.com/).
+The pictures used throughout the page are from a personal trip to Tenerife, apart from the banner image which has been retrieved from [Unsplash](https://unsplash.com/).
 
 The following resources were used:
 1. [Bootstrap Navbar and Grid](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
