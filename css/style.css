@@ -105,6 +105,18 @@ a:hover {
 /* Media Queries */
 @media screen and (max-width: 991px) {
   .navbar-nav {
-    display: inline-block;
+    display: block;
+    text-align: center;
   }
-}
+
+  .navbar-nav .nav-item {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .herobanner {
+    height: 400px; /* Adjust the height as needed */
+  }
+
+  .jumboCopy {
+    width: 80%;
+}}
