@@ -1,16 +1,18 @@
 # challenge-bootstrap-portfolio
-A landing page for own porfolio styled with bootstrap
+A landing page for own porfolio styled with Bootstrap
 
 ## Description
 
-This project represents a webpage about myself and my work portfolio using Bootstrap version 5.3.x. It was created to showcase my projects completed throughout the edX Web Development bootcamp and future work sample. 
+This project represents a webpage about myself and my work portfolio using Bootstrap version 5.3.x. 
+
+It was created to showcase my projects completed throughout the edX Web Development bootcamp and future work sample. 
 
 ## The webpage includes the following:
 1. A navigation bar with navigation menu at the top and navigation links to the appropriate sections.
-3. A hero section with a jumbotron featuring a picture, my name, and any additional info.
+3. A hero section with a jumbotron featuring my picture, name, and a connect button.
 3. A work section, displaying my work in grid using Bootstrap cards and linking to the deployed projects.
-4. A skills section.
-5. An about/contact section.
+4. A skills section using Bootstrap cards.
+5. An about/contact section using a Bootstrap card.
 6. A footer section
 7. Additional formatting:
     - All hyperlinks have a hover effect.
@@ -29,7 +31,7 @@ The screenshot below displays the web page outlook for a large device. The page 
 ## Credits
 The project was built following the instructions from the materials in the Skills Bootcamp in Front-End Web Development by edX. 
 
-The pictures used throughout the page are from a personal trip to Tenerife, apart from the banner image which has been retrieved from [Unsplash](https://unsplash.com/).
+The pictures used in the work grid are from a personal trip to Tenerife, and the banner image has been retrieved from [Unsplash](https://unsplash.com/).
 
 The following resources were used:
 1. [Bootstrap Navbar and Grid](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
