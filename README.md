@@ -26,7 +26,7 @@ To use the webpage, you can click on the different sections in the navigation ba
 
 The screenshot below displays the web page outlook for a large device. The page is designed to be responsive, so that the work projects and skills stack upon each other on smaller screen sizes.
 
-![Large Webpage Screenshot](./images/lg-screenshot.PNG)
+![Large Webpage Screenshot](./images/lg-webpage-screenshot.PNG)
 
 ## Credits
 The project was built following the instructions from the materials in the Skills Bootcamp in Front-End Web Development by edX. 
